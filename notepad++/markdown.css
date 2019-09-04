@@ -1,9 +1,4 @@
-@font-face {
-  font-family: octicons-link;
-  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
-}
-
-.markdown-body {
+* {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #24292e;
@@ -14,88 +9,88 @@
   word-wrap: break-word;
 }
 
-.markdown-body details {
+details {
   display: block;
 }
 
-.markdown-body summary {
+summary {
   display: list-item;
 }
 
-.markdown-body a {
+a {
   background-color: transparent;
 }
 
-.markdown-body a:active,
-.markdown-body a:hover {
+a:active,
+a:hover {
   outline-width: 0;
 }
 
-.markdown-body strong {
+strong {
   font-weight: inherit;
   font-weight: bolder;
 }
 
-.markdown-body h1 {
+h1 {
   font-size: 2em;
   margin: .67em 0;
 }
 
-.markdown-body img {
+img {
   border-style: none;
 }
 
-.markdown-body code,
-.markdown-body kbd,
-.markdown-body pre {
+code,
+kbd,
+pre {
   font-family: monospace,monospace;
   font-size: 1em;
 }
 
-.markdown-body hr {
+hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
 
-.markdown-body input {
+input {
   font: inherit;
   margin: 0;
 }
 
-.markdown-body input {
+input {
   overflow: visible;
 }
 
-.markdown-body [type=checkbox] {
+[type=checkbox] {
   box-sizing: border-box;
   padding: 0;
 }
 
-.markdown-body * {
+* {
   box-sizing: border-box;
 }
 
-.markdown-body input {
+input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
 
-.markdown-body a {
+a {
   color: #0366d6;
   text-decoration: none;
 }
 
-.markdown-body a:hover {
+a:hover {
   text-decoration: underline;
 }
 
-.markdown-body strong {
+strong {
   font-weight: 600;
 }
 
-.markdown-body hr {
+hr {
   background: transparent;
   border: 0;
   border-bottom: 1px solid #dfe2e5;
@@ -104,125 +99,125 @@
   overflow: hidden;
 }
 
-.markdown-body hr:before {
+hr:before {
   content: "";
   display: table;
 }
 
-.markdown-body hr:after {
+hr:after {
   clear: both;
   content: "";
   display: table;
 }
 
-.markdown-body table {
+table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-.markdown-body td,
-.markdown-body th {
+td,
+th {
   padding: 0;
 }
 
-.markdown-body details summary {
+details summary {
   cursor: pointer;
 }
 
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.markdown-body h1 {
+h1 {
   font-size: 32px;
 }
 
-.markdown-body h1,
-.markdown-body h2 {
+h1,
+h2 {
   font-weight: 600;
 }
 
-.markdown-body h2 {
+h2 {
   font-size: 24px;
 }
 
-.markdown-body h3 {
+h3 {
   font-size: 20px;
 }
 
-.markdown-body h3,
-.markdown-body h4 {
+h3,
+h4 {
   font-weight: 600;
 }
 
-.markdown-body h4 {
+h4 {
   font-size: 16px;
 }
 
-.markdown-body h5 {
+h5 {
   font-size: 14px;
 }
 
-.markdown-body h5,
-.markdown-body h6 {
+h5,
+h6 {
   font-weight: 600;
 }
 
-.markdown-body h6 {
+h6 {
   font-size: 12px;
 }
 
-.markdown-body p {
+p {
   margin-bottom: 10px;
   margin-top: 0;
 }
 
-.markdown-body blockquote {
+blockquote {
   margin: 0;
 }
 
-.markdown-body ol,
-.markdown-body ul {
+ol,
+ul {
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 0;
 }
 
-.markdown-body ol ol,
-.markdown-body ul ol {
+ol ol,
+ul ol {
   list-style-type: lower-roman;
 }
 
-.markdown-body ol ol ol,
-.markdown-body ol ul ol,
-.markdown-body ul ol ol,
-.markdown-body ul ul ol {
+ol ol ol,
+ol ul ol,
+ul ol ol,
+ul ul ol {
   list-style-type: lower-alpha;
 }
 
-.markdown-body dd {
+dd {
   margin-left: 0;
 }
 
-.markdown-body code,
-.markdown-body pre {
+code,
+pre {
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   font-size: 12px;
 }
 
-.markdown-body pre {
+pre {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.markdown-body input::-webkit-inner-spin-button,
-.markdown-body input::-webkit-outer-spin-button {
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   appearance: none;
   margin: 0;
@@ -247,23 +242,23 @@
   margin-bottom: 0!important;
 }
 
-.markdown-body a:not([href]) {
+a:not([href]) {
   color: inherit;
   text-decoration: none;
 }
 
-.markdown-body blockquote,
-.markdown-body dl,
-.markdown-body ol,
-.markdown-body p,
-.markdown-body pre,
-.markdown-body table,
-.markdown-body ul {
+blockquote,
+dl,
+ol,
+p,
+pre,
+table,
+ul {
   margin-bottom: 16px;
   margin-top: 0;
 }
 
-.markdown-body hr {
+hr {
   background-color: #e1e4e8;
   border: 0;
   height: .25em;
@@ -271,21 +266,21 @@
   padding: 0;
 }
 
-.markdown-body blockquote {
+blockquote {
   border-left: .25em solid #dfe2e5;
   color: #6a737d;
   padding: 0 1em;
 }
 
-.markdown-body blockquote>:first-child {
+blockquote>:first-child {
   margin-top: 0;
 }
 
-.markdown-body blockquote>:last-child {
+blockquote>:last-child {
   margin-bottom: 0;
 }
 
-.markdown-body kbd {
+kbd {
   background-color: #fafbfc;
   border: 1px solid #c6cbd1;
   border-bottom-color: #959da5;
@@ -299,79 +294,79 @@
   vertical-align: middle;
 }
 
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 16px;
   margin-top: 24px;
 }
 
-.markdown-body h1 {
+h1 {
   font-size: 2em;
 }
 
-.markdown-body h1,
-.markdown-body h2 {
+h1,
+h2 {
   border-bottom: 1px solid #eaecef;
   padding-bottom: .3em;
 }
 
-.markdown-body h2 {
+h2 {
   font-size: 1.5em;
 }
 
-.markdown-body h3 {
+h3 {
   font-size: 1.25em;
 }
 
-.markdown-body h4 {
+h4 {
   font-size: 1em;
 }
 
-.markdown-body h5 {
+h5 {
   font-size: .875em;
 }
 
-.markdown-body h6 {
+h6 {
   color: #6a737d;
   font-size: .85em;
 }
 
-.markdown-body ol,
-.markdown-body ul {
+ol,
+ul {
   padding-left: 2em;
 }
 
-.markdown-body ol ol,
-.markdown-body ol ul,
-.markdown-body ul ol,
-.markdown-body ul ul {
+ol ol,
+ol ul,
+ul ol,
+ul ul {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.markdown-body li {
+li {
   word-wrap: break-all;
 }
 
-.markdown-body li>p {
+li>p {
   margin-top: 16px;
 }
 
-.markdown-body li+li {
+li+li {
   margin-top: .25em;
 }
 
-.markdown-body dl {
+dl {
   padding: 0;
 }
 
-.markdown-body dl dt {
+dl dt {
   font-size: 1em;
   font-style: italic;
   font-weight: 600;
@@ -379,51 +374,51 @@
   padding: 0;
 }
 
-.markdown-body dl dd {
+dl dd {
   margin-bottom: 16px;
   padding: 0 16px;
 }
 
-.markdown-body table {
+table {
   display: block;
   overflow: auto;
   width: 100%;
 }
 
-.markdown-body table th {
+table th {
   font-weight: 600;
 }
 
-.markdown-body table td,
-.markdown-body table th {
+table td,
+table th {
   border: 1px solid #dfe2e5;
   padding: 6px 13px;
 }
 
-.markdown-body table tr {
+table tr {
   background-color: #fff;
   border-top: 1px solid #c6cbd1;
 }
 
-.markdown-body table tr:nth-child(2n) {
+table tr:nth-child(2n) {
   background-color: #f6f8fa;
 }
 
-.markdown-body img {
+img {
   background-color: #fff;
   box-sizing: content-box;
   max-width: 100%;
 }
 
-.markdown-body img[align=right] {
+img[align=right] {
   padding-left: 20px;
 }
 
-.markdown-body img[align=left] {
+img[align=left] {
   padding-right: 20px;
 }
 
-.markdown-body code {
+code {
   background-color: rgba(27,31,35,.05);
   border-radius: 3px;
   font-size: 85%;
@@ -431,11 +426,11 @@
   padding: .2em .4em;
 }
 
-.markdown-body pre {
+pre {
   word-wrap: normal;
 }
 
-.markdown-body pre>code {
+pre>code {
   background: transparent;
   border: 0;
   font-size: 100%;
@@ -445,17 +440,7 @@
   word-break: normal;
 }
 
-.markdown-body .highlight {
-  margin-bottom: 16px;
-}
-
-.markdown-body .highlight pre {
-  margin-bottom: 0;
-  word-break: normal;
-}
-
-.markdown-body .highlight pre,
-.markdown-body pre {
+pre {
   background-color: #f6f8fa;
   border-radius: 3px;
   font-size: 85%;
@@ -464,7 +449,7 @@
   padding: 16px;
 }
 
-.markdown-body pre code {
+pre code {
   background-color: transparent;
   border: 0;
   display: inline;
@@ -476,7 +461,7 @@
   word-wrap: normal;
 }
 
-.markdown-body kbd {
+kbd {
   background-color: #fafbfc;
   border: 1px solid #d1d5da;
   border-bottom-color: #c6cbd1;
@@ -490,12 +475,6 @@
   vertical-align: middle;
 }
 
-.markdown-body :checked+.radio-label {
-  border-color: #0366d6;
-  position: relative;
-  z-index: 1;
-}
-
-.markdown-body hr {
+hr {
   border-bottom-color: #eee;
 }
