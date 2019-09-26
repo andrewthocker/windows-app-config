@@ -353,6 +353,17 @@ template {
 /* End CSS RESET */
 
 
+
+
+
+
+/*
+    Here starts my take on standardizing Markdown rendering
+	
+	TODO: MarkdownViewer++ doesn't render unordered list correctly if the parent element starts with a "-" instead of an "*"
+*/
+
+
 ol,
 ol ol ol ol { list-style-type: decimal; }
 ol ol       { list-style-type: lower-latin; }
@@ -362,3 +373,5 @@ ul,
 ul ul ul ul { list-style-type: disc; }
 ul ul       { list-style-type: circle; }
 ul ul ul    { list-style-type: square; } /* why doesn't square work in MarkdownViewer++? */
+
+p { text-indent: 1em; }  /* http://theworldsgreatestbook.com/book-typography-standards/ */
